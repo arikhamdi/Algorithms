@@ -22,8 +22,9 @@ def BinarySearch(sortedList, item):
     return numberOfTry
 
 
-numberToGuess = randint(0,101)
-listLenght = randint(100,500001)
+# listLenght = randint(100,500001)
+listLenght = 1000
+numberToGuess = randint(0,listLenght)
 mySortedList = [a for a in range(0, listLenght)]
 result = BinarySearch(mySortedList, numberToGuess)
 
